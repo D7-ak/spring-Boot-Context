@@ -24,11 +24,17 @@ Q3
 
 the Output, 
 
-"hey from message1"    OR    "hey from message3"
+"hey from message1"
 
-"hey from message3"          "hey from message2"
+"hey from message3"          
 
-"hey from message2"          "hey from message1"
+"hey from message2"     
+
+OR
+
+"hey from message3"
+"hey from message2"
+"hey from message1"
 
 &nbsp;			OR
 
@@ -131,6 +137,7 @@ method3 doesn't depend on any methods so it will run first, and since method3 is
 after that the controller can run since it requires method2 to run before it,
 
 after controller run the last method running will be method1, and it is requiring controller to run first so it can run.
+
 
 
 
