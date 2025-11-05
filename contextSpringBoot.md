@@ -118,7 +118,7 @@ OR Sixth
 
 
 
-the rule here is (method3 then method2), and (controller then method1), and between them it can be anything.
+the rule here is (method3 then method2), and (method1 then controller), and between them it can be anything.
 
 ---------------------------------------------------------------------------------
 
@@ -139,6 +139,7 @@ method3 doesn't depend on any methods so it will run first, and since method3 is
 after that the controller can run since it requires method2 to run before it,
 
 after controller run the last method running will be method1, and it is requiring controller to run first so it can run.
+
 
 
 
